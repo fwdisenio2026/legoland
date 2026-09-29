@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Fredoka", cursive, sans-serif;
+  --font-sans: "Plus Jakarta Sans", sans-serif;
+
+  --color-brand-red: #EF4444;
+  --color-brand-yellow: #F59E0B;
+  --color-brand-blue: #2563EB;
+  --color-brand-green: #10B981;
+  --color-brand-purple: #7C3AED;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: #FFFFFF;
+  color: #1F2937;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, .font-display {
+  font-family: var(--font-display);
+}
+
+@keyframes scrollLeft {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-carousel-slow {
+  display: flex;
+  width: max-content;
+  animation: scrollLeft 28s linear infinite;
+}
+
+.animate-carousel-slow:hover {
+  animation-play-state: paused;
+}
+

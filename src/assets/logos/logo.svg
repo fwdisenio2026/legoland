@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 160" width="100%" height="100%">
+  <defs>
+    <filter id="shadow" x="-5%" y="-5%" width="115%" height="115%">
+      <feDropShadow dx="0" dy="4" stdDeviation="4" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+
+  <!-- LEGOLAND letters with white thick stroke and vibrant fills -->
+  <g font-family="'Fredoka', 'Arial Rounded MT Bold', sans-serif" font-weight="900" font-size="64" text-anchor="middle" filter="url(#shadow)">
+    <!-- L -->
+    <text x="50" y="75" fill="#EF4444" stroke="#FFFFFF" stroke-width="8" stroke-linejoin="round" paint-order="stroke fill">L</text>
+    <!-- E -->
+    <text x="100" y="75" fill="#FACC15" stroke="#FFFFFF" stroke-width="8" stroke-linejoin="round" paint-order="stroke fill">E</text>
+    <!-- G -->
+    <text x="155" y="75" fill="#2563EB" stroke="#FFFFFF" stroke-width="8" stroke-linejoin="round" paint-order="stroke fill">G</text>
+    <!-- O -->
+    <text x="212" y="75" fill="#10B981" stroke="#FFFFFF" stroke-width="8" stroke-linejoin="round" paint-order="stroke fill">O</text>
+    <!-- Star inside O -->
+    <polygon points="212,56 215,64 223,64 217,69 219,77 212,72 205,77 207,69 201,64 209,64" fill="#FFFFFF"/>
+    <!-- L -->
+    <text x="268" y="75" fill="#EF4444" stroke="#FFFFFF" stroke-width="8" stroke-linejoin="round" paint-order="stroke fill">L</text>
+    <!-- A -->
+    <text x="320" y="75" fill="#FACC15" stroke="#FFFFFF" stroke-width="8" stroke-linejoin="round" paint-order="stroke fill">A</text>
+    <!-- N -->
+    <text x="375" y="75" fill="#2563EB" stroke="#FFFFFF" stroke-width="8" stroke-linejoin="round" paint-order="stroke fill">N</text>
+    <!-- D -->
+    <text x="430" y="75" fill="#10B981" stroke="#FFFFFF" stroke-width="8" stroke-linejoin="round" paint-order="stroke fill">D</text>
+  </g>
+
+  <!-- Curved Purple Ribbon with JUGAR • FESTEJAR • SOÑAR -->
+  <g filter="url(#shadow)">
+    <!-- Purple ribbon background -->
+    <path d="M 60 115 Q 240 135 420 115 L 430 142 Q 240 162 50 142 Z" fill="#7C3AED" stroke="#FFFFFF" stroke-width="3"/>
+    <!-- Yellow bottom curve accent -->
+    <path d="M 80 145 Q 240 166 400 145" fill="none" stroke="#FACC15" stroke-width="5" stroke-linecap="round"/>
+    <!-- Text on Ribbon -->
+    <text x="240" y="136" font-family="'Fredoka', sans-serif" font-weight="700" font-size="16" fill="#FFFFFF" text-anchor="middle" letter-spacing="3">
+      JUGAR • FESTEJAR • SOÑAR
+    </text>
+  </g>
+</svg>
